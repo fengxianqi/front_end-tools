@@ -2,6 +2,7 @@
 汇总前端常用工具或库
 
 ## 复制copy
+- 自己封装：https://github.com/fengxianqi/front_end-tools/blob/main/src/cliboard.md
 - https://github.com/zenorocha/clipboard.js
 
 ## 代码高亮
