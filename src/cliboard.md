@@ -1,7 +1,7 @@
 ## cliboard.js
 ```javascript
 
-function fallbackCopyTextToClipboard (text) {
+function _fallbackCopyTextToClipboard (text) {
   var textArea = document.createElement('textarea')
   textArea.value = text
   document.body.appendChild(textArea)
@@ -23,7 +23,7 @@ function fallbackCopyTextToClipboard (text) {
 
 function copyTextToClipboard (text) {
   if (!navigator.clipboard) {
-    return fallbackCopyTextToClipboard(text)
+    return _fallbackCopyTextToClipboard(text)
   }
   return navigator.clipboard.writeText(text).then(() => {
     return true
@@ -35,9 +35,17 @@ function copyTextToClipboard (text) {
 export default copyTextToClipboard
 
 ```
+### usage
+```
+import copyToClipboard from './clipboard';
+copyToClipboard('test string').then(() => {
+  console.log('copy success!')
+})
+```
+
 
 ## cliboard.ts
-```
+```typescript
 function _fallbackCopyTextToClipboard (text: string): Promise<boolean> {
   const textArea = document.createElement('textarea');
   textArea.value = text;
