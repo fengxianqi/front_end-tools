@@ -10,3 +10,4 @@
 ## 代码编辑器
 - https://github.com/ajaxorg/ace
 - https://github.com/codemirror/codemirror
+- vscode: [monaco-editor](https://github.com/microsoft/monaco-editor)
