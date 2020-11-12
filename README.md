@@ -5,6 +5,9 @@
 - 自己封装：https://github.com/fengxianqi/front_end-tools/blob/main/src/cliboard.md
 - https://github.com/zenorocha/clipboard.js
 
+## 生成uuid
+- https://github.com/fengxianqi/front_end-tools/blob/main/src/uuid.md
+
 ## 代码高亮
 - https://github.com/highlightjs/highlight.js
 ## 代码编辑器
