@@ -8,6 +8,9 @@
 ## 生成uuid
 - https://github.com/fengxianqi/front_end-tools/blob/main/src/uuid.md
 
+## 日期地址格式化
+- https://github.com/fengxianqi/front_end-tools/blob/main/src/format-date.md
+
 ## 代码高亮
 - https://github.com/highlightjs/highlight.js
 ## 代码编辑器
