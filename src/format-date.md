@@ -35,6 +35,7 @@ export function zhDay (w) {
 }
 ```
 
+## Usage
 ``` javascript
 const now = Date.now()
 formateDate(now); // 2021-09-16 10:00
